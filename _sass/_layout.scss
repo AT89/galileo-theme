@@ -1,6 +1,7 @@
 #banner {
     @include retina-background-image($img-banner);
     background-color: #8e8387;
+    background-repeat: no-repeat;
     outline: none;
     display: block;
     width: $banner-width;
@@ -49,6 +50,7 @@
         width: 65px;
         height: 158px;
         margin: 20px auto 50px;
+        background-repeat: no-repeat;
     }
 
     a {
